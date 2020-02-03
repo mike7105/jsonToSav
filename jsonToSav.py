@@ -7,7 +7,9 @@ import savReaderWriter as srw
 dAll = []
 
 # путь к файлам с json
-pathJson = r"O:\Progs\Python\jsonToSav\data"
+pathJson = r"W:\iMQ\Projects\_PROJECTS\Lenta\19-089577_Lenta Segmentation\4. DATA\Receipts from coding\JSON_ready"
+pathTxt = r"W:\iMQ\Projects\_PROJECTS\Lenta\19-089577_Lenta Segmentation\4. DATA\Receipts from coding\odf.txt"
+pathSav = r"W:\iMQ\Projects\_PROJECTS\Lenta\19-089577_Lenta Segmentation\4. DATA\Receipts from coding\spss.sav"
 
 
 def getData(path: str):
@@ -69,8 +71,11 @@ for col in odf.columns:
 print(memUsage(df))
 print(memUsage(odf))
 
+print(odf['filename'].unique())
+print(len(odf['filename'].unique()))
+
 # сохраняем в tab
-odf.to_csv(r"O:\Progs\Python\jsonToSav\data\odf.txt", sep="\t", index=False)
+odf.to_csv(pathTxt, sep="\t", index=False)
 
 # собираем парметры для сохранения в SPSS
 odf['date'] = odf['date'].astype('str')
@@ -91,7 +96,7 @@ print(varTypes)
 colsSave = list(odf.columns)
 
 # https://pythonhosted.org/savReaderWriter/generated_api_documentation.html#savwriter
-with srw.SavWriter(r"O:\Progs\Python\jsonToSav\data\spss.sav", varNames=colsSave, varTypes=varTypes,
+with srw.SavWriter(pathSav, varNames=colsSave, varTypes=varTypes,
                    valueLabels=valLabs, ioUtf8=True, formats={'date': 'DATETIME17'}) as writer:
     for record in records:
         record[0] = writer.spssDateTime(record[0].encode(), '%Y-%m-%d %H:%M:%S')
