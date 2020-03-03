@@ -7,20 +7,25 @@ import savReaderWriter as srw
 dAll = []
 
 # путь к файлам с json
-pathJson = r"W:\iMQ\Projects\_PROJECTS\Lenta\19-089577_Lenta Segmentation\4. DATA\Receipts from coding\JSON_ready"
+pathJson = r"W:\iMQ\Projects\_PROJECTS\Lenta\19-089577_Lenta Segmentation\4. DATA\Receipts from coding\JSON_READY"
 pathTxt = r"W:\iMQ\Projects\_PROJECTS\Lenta\19-089577_Lenta Segmentation\4. DATA\Receipts from coding\odf.txt"
 pathSav = r"W:\iMQ\Projects\_PROJECTS\Lenta\19-089577_Lenta Segmentation\4. DATA\Receipts from coding\spss.sav"
 
 
 def getData(path: str):
     with open(path, "r", encoding="utf8") as f:
-        dJson = json.load(f)
-        dJson["filename"] = os.path.splitext(os.path.basename(path))[0]
-        dJson1 = {k: v for k, v in dJson.items() if k != "products"}
+        file_content = os.path.getsize(path)  # f.read().strip()
+        # Проверяем, не пустой ли файл
+        if file_content > 0:
+            dJson = json.load(f)
+            dJson["filename"] = os.path.splitext(os.path.basename(path))[0]
+            dJson1 = {k: v for k, v in dJson.items() if k != "products"}
 
-        for d in dJson["products"]:
-            dJson1.update(d)
-            dAll.append(dJson1.copy())
+            for d in dJson["products"]:
+                dJson1.update(d)
+                dAll.append(dJson1.copy())
+        else:
+            print("Empty: " + path)
 
 
 # прохожусь по всем файлам и собираю json в единый словарь
