@@ -21,9 +21,12 @@ def getData(path: str):
             dJson["filename"] = os.path.splitext(os.path.basename(path))[0]
             dJson1 = {k: v for k, v in dJson.items() if k != "products"}
 
-            for d in dJson["products"]:
-                dJson1.update(d)
-                dAll.append(dJson1.copy())
+            try:
+                for d in dJson["products"]:
+                    dJson1.update(d)
+                    dAll.append(dJson1.copy())
+            except KeyError:
+                print("KeyError: " + path)
         else:
             print("Empty: " + path)
 
