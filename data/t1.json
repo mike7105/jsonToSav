@@ -1,260 +1,47 @@
 {
-  "date": "02.08.18 14:13" ,
-  "shopAddress": "Большая Черемушкинская ул. 1 • Юго-Западный административный округ" ,
-  "shopName": "Лента" ,
-  "totalSum": 4620.0 ,
-  "products": [
+  "cashTotalSum": 6490,
+  "dateTime": 1580148120,
+  "discount": null,
+  "discountSum": null,
+  "ecashTotalSum": 0,
+  "fiscalDocumentNumber": 3939,
+  "fiscalDriveNumber": "1231231231321321321",
+  "fiscalSign": 0000113111,
+  "items": [
     {
-      "category": "Дети" ,
-      "name": "Д/п вода ФРУТОНЯНЯ детск пит артез 330мл" ,
-      "quantity": 4.0 ,
-      "price": 21.99 ,
-      "sum": 87.96
-    } ,
-    {
-      "category": "Дети" ,
-      "name": "Ж/МЫЛО AQA BABY Д/МАЛЫША С ДОЗАТ 300МЛ" ,
-      "quantity": 1.0 ,
-      "price": 94.99 ,
-      "sum": 94.99
-    } ,
-    {
-      "category": "Дети" ,
-      "name": "Кефир АГУША детский 3,2% ТВА 204г" ,
-      "quantity": 3.0 ,
-      "price": 23.99 ,
-      "sum": 71.97
-    } ,
-    {
-      "category": "Дети" ,
-      "name": "Д/п пюре ФРУТОНЯНЯ говяд с греч/мор100г" ,
-      "quantity": 3.0 ,
-      "price": 45.89 ,
-      "sum": 137.67
-    } ,
-    {
-      "category": "Дети" ,
-      "name": "Йогурт АГУША пит натурал 3,1% бут 200г" ,
-      "quantity": 8.0 ,
-      "price": 36.79 ,
-      "sum": 294.32
-    } ,
-    {
-      "category": "Дети" ,
-      "name": "Молоко ТЕМА у/паст. 3,2% ТВАslim 200мл" ,
-      "quantity": 7.0 ,
-      "price": 31.99 ,
-      "sum": 223.93
-    } ,
-    {
-      "category": "Дети" ,
-      "name": "Биолакт ТЕМА Детский б/сах 3,4% ТBA 206г" ,
-      "quantity": 6.0 ,
-      "price": 35.49 ,
-      "sum": 212.94
-    } ,
-    {
-      "category": "Дети" ,
-      "name": "Творог АГУША детский клас 6мес 4,5% 100г" ,
-      "quantity": 4.0 ,
-      "price": 25.89 ,
-      "sum": 103.56
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "Биойог DANONE Актив Черн-Зл-Льн 2,1%290г" ,
-      "quantity": 1.0 ,
-      "price": 34.99 ,
-      "sum": 34.99
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "БиойогуртDANONE Активиа со злак 2,2%290г" ,
-      "quantity": 1.0 ,
-      "price": 34.99 ,
-      "sum": 34.99
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "Биойог DANONE Актив Печ груш-Зл 2,1%290г" ,
-      "quantity": 1.0 ,
-      "price": 34.99 ,
-      "sum": 34.99
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "Творог ПРОСТОКВАШИНО Классич 9% 220г" ,
-      "quantity": 1.0 ,
-      "price": 89.09 ,
-      "sum": 89.09
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "Творог БРЕСТ-ЛИТОВСК фас. 9% клинок 280г" ,
-      "quantity": 1.0 ,
-      "price": 125.99 ,
-      "sum": 125.99
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "Творог ПРОСТОКВАШИНО классич 5% 220г" ,
-      "quantity": 1.0 ,
-      "price": 96.39 ,
-      "sum": 96.39
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "Творог BIOБАЛАНС 0,2% 210г" ,
-      "quantity": 1.0 ,
-      "price": 84.19 ,
-      "sum": 84.19
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "Сметана БЛАГОДА 15% 450 г" ,
-      "quantity": 1.0 ,
-      "price": 71.49 ,
-      "sum": 71.49
-    } ,
-    {
-      "category": "Молочные продукты" ,
-      "name": "Сметана АВИДА 10% 200г" ,
-      "quantity": 1.0 ,
-      "price": 32.99 ,
-      "sum": 32.99
-    } ,
-    {
-      "category": "Для дома" ,
-      "name": "Пятнов-ль VANISH Окс Д/пр.Обр.Пят500мл" ,
-      "quantity": 1.0 ,
-      "price": 334.99 ,
-      "sum": 334.99
-    } ,
-    {
-      "category": "Для дома" ,
-      "name": "Ср-во ТУАЛ УТЕНОК Видимый Эффект 750мл" ,
-      "quantity": 1.0 ,
-      "price": 134.99 ,
-      "sum": 134.99
-    } ,
-    {
-      "category": "Для дома" ,
-      "name": "Мешки д/мусора SWIRL с завязк 70 л 8шт" ,
-      "quantity": 1.0 ,
-      "price": 79.9 ,
-      "sum": 79.9
-    } ,
-    {
-      "category": "Алкоголь" ,
-      "name": "Вино LA PIUMA Монт д\u0027Абр кр п/сухИт0.75L" ,
-      "quantity": 1.0 ,
-      "price": 529.35 ,
-      "sum": 529.35
-    } ,
-    {
-      "category": "Снеки" ,
-      "name": "Миндаль DOLCE ALBERO жареный 200г" ,
-      "quantity": 1.0 ,
-      "price": 389.99 ,
-      "sum": 389.99
-    } ,
-    {
-      "category": "Рыба" ,
-      "name": "Р/к печень трески ВКУСНЫЕ КОНСЕРВЫ 230г" ,
-      "quantity": 1.0 ,
-      "price": 222.99 ,
-      "sum": 222.99
-    } ,
-    {
-      "category": "Напитки" ,
-      "name": "Д/п вода ФРУТО-НЯНЯ негазиров ПЭТ 1,5л" ,
-      "quantity": 6.0 ,
-      "price": 32.39 ,
-      "sum": 194.34
-    } ,
-    {
-      "category": "Гастрономия" ,
-      "name": "Колбаса ОСТАНКИНО Зернист с/к в/с вес1кг" ,
-      "quantity": 0.112 ,
-      "price": 774.99 ,
-      "sum": 86.8
-    } ,
-    {
-      "category": "Гастрономия" ,
-      "name": "Шинка ВЕЛИКОЛУКСКИЙ Тверецкая в/к т/уп" ,
-      "quantity": 0.202 ,
-      "price": 499.99 ,
-      "sum": 101.0
-    } ,
-    {
-      "category": "Здоровье" ,
-      "name": "З/щетка COLGATE 360 С-Чист 1+1 Ср Жест" ,
-      "quantity": 1.0 ,
-      "price": 178.99 ,
-      "sum": 178.99
-    } ,
-    {
-      "category": "Бакалея" ,
-      "name": "Макароны BARILLA Мецц пенне 3хцветн 500г" ,
-      "quantity": 1.0 ,
-      "price": 160.39 ,
-      "sum": 160.39
-    } ,
-    {
-      "category": "Мясо и птица" ,
-      "name": "Корейка ОСТАНКИНО по-останкински к/в в/с" ,
-      "quantity": 0.086 ,
-      "price": 724.99 ,
-      "sum": 62.35
-    } ,
-    {
-      "category": "Мясо и птица" ,
-      "name": "Яйцо перепелиное ЛЕНТА столовое 20шт" ,
-      "quantity": 1.0 ,
-      "price": 61.99 ,
-      "sum": 61.99
-    } ,
-    {
-      "category": "Косметика" ,
-      "name": "Ж/крем-мыл EVO д/интим гигиены 200мл" ,
-      "quantity": 1.0 ,
-      "price": 85.39 ,
-      "sum": 85.39
-    } ,
-    {
-      "category": "Овощи и фрукты" ,
-      "name": "Морковь Эконом вес 1кг" ,
-      "quantity": 0.754 ,
-      "price": 44.89 ,
-      "sum": 33.85
-    } ,
-    {
-      "category": "Овощи и фрукты" ,
-      "name": "Салат Свекла с чесноком вес" ,
-      "quantity": 0.218 ,
-      "price": 198.99 ,
-      "sum": 43.38
-    } ,
-    {
-      "category": "Кулинария" ,
-      "name": "Спаржа по-корейски вес" ,
-      "quantity": 0.11 ,
-      "price": 429.99 ,
-      "sum": 47.3
-    } ,
-    {
-      "category": "Хлеб" ,
-      "name": "Хлебец Зерновой 150г" ,
-      "quantity": 1.0 ,
-      "price": 29.99 ,
-      "sum": 29.99
-    } ,
-    {
-      "category": "Упаковка" ,
-      "name": "Пакет ЛЕНТА майка 9кг" ,
-      "quantity": 3.0 ,
-      "price": 3.19 ,
-      "sum": 9.57
+      "modifiers": null,
+      "name": "Что-то",
+      "nds0": null,
+      "nds10": null,
+      "nds18": null,
+      "ndsCalculated10": null,
+      "ndsCalculated18": null,
+      "ndsNo": null,
+      "price": 6490,
+      "quantity": 1.0,
+      "sum": 6490,
+      "storno": false
     }
-  ]
+  ],
+  "kktNumber": null,
+  "kktRegId": "00012312312123",
+  "markup": null,
+  "markupSum": null,
+  "modifiers": null,
+  "nds0": null,
+  "nds10": null,
+  "nds18": null,
+  "ndsCalculated10": null,
+  "ndsCalculated18": null,
+  "ndsNo": 6490,
+  "operationType": 1,
+  "operator": "КАССИР 02",
+  "requestNumber": 35,
+  "retailPlaceAddress": null,
+  "shiftNumber": 153,
+  "stornoItems": null,
+  "taxationType": 8,
+  "totalSum": 6490,
+  "user": null,
+  "userInn": "00000000"
 }

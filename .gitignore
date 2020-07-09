@@ -3,3 +3,6 @@
 *__pycache__*
 .ipynb*
 .idea/workspace.xml
+JSON_READY*
+*.txt
+*.sav
