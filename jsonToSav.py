@@ -19,6 +19,7 @@ dAll: list = []
 pathJson = r"JSON_READY"
 pathTxt = r"odf.txt"
 pathSav = r"spss.sav"
+
 pathJsonE = os.path.join(pathJson, "Empty")
 pathJsonK = os.path.join(pathJson, "Key")
 
